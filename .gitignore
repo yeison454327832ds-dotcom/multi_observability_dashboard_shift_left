@@ -1,0 +1,29 @@
+# Configuración local: puede contener IDs internos y preferencias del usuario.
+.env
+.env.*
+!config.example.env
+
+# Evidencia operativa generada: contiene IPs, pods, nodos, eventos y errores.
+reports/
+data/
+*.html
+*.log
+
+# Credenciales y material criptográfico.
+credentials*.json
+*service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+kubeconfig*
+
+# Python y archivos temporales.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.tmp
+*.bak
+
